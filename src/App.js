@@ -1,23 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Payment from './components/payment';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Payment date="28/10/2022"  title="Apple Gift" title2="Payment" brand="MacOS - Mobile" 
+     logo="https://tse4.mm.bing.net/th?id=OIP.c5qSi72GIwhnl1smToErQAHaJD&pid=Api&P=0&w=138&h=169"/>
     </div>
   );
 }
